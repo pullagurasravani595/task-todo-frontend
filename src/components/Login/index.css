@@ -1,0 +1,89 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    height: 100vh;
+    background-size: cover;
+  }
+  
+  .form-element {
+    box-shadow: 0 0 5px 5px #f1f5f9;
+    width: 70%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .form-container {
+      margin-top: 200px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .form-container {
+      margin-top: 150px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .form-element {
+      width: 30%;
+    }
+  }
+  
+  .image {
+    width: 70px;
+    height: 28px;
+  }
+  
+  .label-input-container {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-top: 6px;
+    width: 100%;
+  }
+  
+  .checkbox-label-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    margin-top: 6px;
+  }
+  
+  .submit-btn {
+    width: 80%;
+    align-self: flex-start;
+    margin-top: 8px;
+    height: 30px;
+    background-color: #3b82f6;
+    border-radius: 5px;
+    border-width: 0px;
+    color: #ffffff;
+    font-family: 'Roboto';
+  }
+  
+  .error-text {
+    color: #ff0b37;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 500;
+    align-self: flex-start;
+  }
+
+  .label-element {
+    margin-bottom: 5px;
+  }
+
+  .login-input {
+    padding: 10px;
+    width: 90%;
+  }
